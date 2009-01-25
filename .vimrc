@@ -21,7 +21,7 @@ autocmd InsertLeave * highlight StatusLine guifg=#2E4340 guibg=#ccdc90
 augroup END
 highlight ZenkakuSpace cterm=underline ctermfg=red guibg=#666666
 au BufNewFile,BufRead * match ZenkakuSpace /　/
-autocmd FileType ruby :set dictionary=$HOME/.vim/dict/ruby.dict
+autocmd FileType ruby :set dictionary=$HOME/vimfiles/dict/ruby.dict
 filetype plugin on
 
 
